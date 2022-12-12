@@ -10,9 +10,6 @@
 
 }
 
-body{
-    background-color: #f2f2f2;
-}
 
 .container{
     display: flex;
@@ -22,6 +19,7 @@ body{
     min-height: 100vh;
     gap: 15px;
     padding-bottom: 80px;
+    background-color: #f2f2f2;
 }
 
 .container .content{
@@ -104,29 +102,30 @@ body{
         padding: 20px;
     }
 
-    .container .container{
+    .container .content{
         text-align: center;
     }
 
-    .container .container .title{
+    .container .content .title{
         font-size: 35px;
     }
 
-    .container .container p{
+    .container .content p{
         font-size: 14px;
     }
 
-    .container .container  .count-down{
-        grid-auto-flow: 5px;
+    .container .content  .count-down{
+        gap: 5px;
     }
 
-    .container .container .box .count-down h3{
+    .container .content .count-down .box h3{
         font-size: 30px;
     }
 
-    .container .container .box .count-down h3{
+    .container .content .count-down .box span{
         font-size: 15px;
     }
+    
 }
 
 /* for btn list */
@@ -179,3 +178,4 @@ ul li:nth-child(5)::marker {
         color: #425c81;
     }
 }
+

@@ -18,8 +18,8 @@
     padding: 20px 7%;
     min-height: 100vh;
     gap: 15px;
-    padding-bottom: 80px;
-    background-color: #f2f2f2;
+    padding-bottom: 0px;
+    background-color: #032a2f;
 }
 
 .container .content{
@@ -37,11 +37,11 @@
 .container .content .title{
     font-size: 45px;
     text-transform: uppercase;
-    color: #425c81;
+    color: #cd5322;
 }
 
-.container .content p{
-    color: #383838;
+.container .content h3{
+    color: #ede8ef;
     padding: 5px 0;
 }
 
@@ -53,23 +53,23 @@
 
 .container .content .count-down .box{
     padding: 5px;
-    background: #e4e4e4;
+    background: #ede8ef;
     border: solid 1px #3333;
     text-align: center;
     flex: 1 1 20px;
 }
 
 .container .content .count-down .box:hover{
-    background: #fff;
+    background: #f79236;
 }
 
 .container .content .count-down .box h3{
     font-size: 50px;
-    color: #333;
+    color: #032a2f;
 }
 
 .container .content .count-down .box span{
-    color: #425c81;
+    color: #cd5322;
     padding: 5px 0;
     font-size: 20px;
 }
@@ -80,15 +80,35 @@
     padding: 8px 50px;
     margin: 10px 0;
     font-size: 17px;
-    background: #425c81 ;
+    background: #cd5322 ;
     color: #e4e4e4;
     transition: .2s ease-out;
 }
 
 .container .content .btn:hover{
     letter-spacing: 2px;
+    background: #f79236;
 }
 
+footer{
+    background: #032a2f;
+    text-align: center;
+}
+
+footer p{
+    padding: 10px;
+    color: #ede8ef;
+}
+
+footer p a{
+    color: #cd5322;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    color: #f79236;
+    letter-spacing: 2px;
+}
 
 
 
@@ -110,7 +130,7 @@
         font-size: 35px;
     }
 
-    .container .content p{
+    .container .content h3{
         font-size: 14px;
     }
 
@@ -140,6 +160,7 @@ ul{
 
 ul li {
     list-style: square;
+    color: #ede8ef;
 }
 
 ul li::marker {
@@ -175,7 +196,10 @@ ul li:nth-child(5)::marker {
 
     to {
         font-size: 30px;
-        color: #425c81;
+        color: #cd5322;
     }
 }
+
+
+
 
